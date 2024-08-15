@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding-top: 60px;  /* Adjust this value if the nav height changes */
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #333;
+    position: fixed;  /* Fixes the nav to the top of the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;  /* Ensures the nav is above other content */
+    padding: 10px;
+    border-radius: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+  }
+  
+  .navbar li a:hover {
+    background-color: #555;
+  }
+  
+  /* Section 1 */
+  .section-one {
+    display: flex;
+    justify-content: center;
+    background-color: #ffefd5;  /* Light Peach Color */
+    padding: 20px 0;  /* Padding on top and bottom only */
+    width: 100%;  /* Full width */
+  }
+  
+  .section-one-inner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 1500px;  /* Padding inside the content container */
+  }
+  
+  .image-container {
+    padding: 0 20px;  /* Padding on the sides of the image */
+  }
+  
+  .image-container img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .text-container {
+    padding: 0 20px;  /* Padding on the sides of the text */
+  }
+  
+  .text-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .text-container p {
+    font-size: 16px;
+  }
+  
+  /* Section 2 */
+  .section-two {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e0f7fa;  /* Light Cyan Color */
+    padding: 20px 0;  /* Padding on top and bottom only */
+    width: 100%;  /* Full width */
+  }
+  
+  .section-two-inner {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 40px;  /* Padding inside the content container */
+  }
+  
+  .content-block {
+    background-color: #fff;
+    padding: 20px;
+    width: 48%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-block h3 {
+    margin-bottom: 10px;
+  }
+  
+  .content-block p {
+    font-size: 16px;
+  }
+  
+  /* About Me Section */
+  .section-three {
+    background-color: #d1c4e9;  /* Light Purple Color */
+    padding: 20px 0;  /* Padding on top and bottom only */
+    width: 100%;  /* Full width of the screen */
+  }
+  
+  .section-three-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centers the content horizontally */
+    text-align: center;  /* Centers the text */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;  /* Adds padding inside the content container */
+  }
+  
+  .section-three-inner h2, .section-three-inner p {
+    margin-bottom: 10px;
+  }
